@@ -8,13 +8,14 @@ import { useNavigate } from "react-router-dom"
 function User() {
 
     const dispatch = useDispatch()
+    const navigate = useNavigate()
     const token = useSelector(state => state.token)
     const datas = useSelector(state => state.datas)
     const modalIsOpen = useSelector(state => state.modalIsOpen)
 
     useEffect(() => {
         if (token === "") {
-            useNavigate("/")
+            navigate("/")
         }
         // eslint-disable-next-line
     }, [])
