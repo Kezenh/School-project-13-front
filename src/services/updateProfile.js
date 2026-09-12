@@ -11,7 +11,7 @@ async function updateProfile(token, firstName, lastName) {
           })
     }
         
-    return fetch('http://localhost:3001/api/v1/user/profile', requestOptions)
+    return fetch('https://school-project-13-back.onrender.com/api/v1/user/profile', requestOptions)
     .then(response => response.json())
     .then(response => response.body)
     .catch(error => console.log("Error", error))
