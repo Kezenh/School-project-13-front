@@ -3,6 +3,7 @@ import HeaderSignOut from "../components/HeaderSignOut"
 import EditNameModal from "../components/EditNameModal"
 import { changeModalState } from "../redux/store"
 import { useEffect } from "react"
+import { useNavigate } from "react-router-dom"
 
 function User() {
 
@@ -13,7 +14,7 @@ function User() {
 
     useEffect(() => {
         if (token === "") {
-            window.location.href = "/"
+            useNavigate("/")
         }
         // eslint-disable-next-line
     }, [])
