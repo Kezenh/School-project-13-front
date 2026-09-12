@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/School-project-13-front/static/css/main.86f759cd.css",
+    "main.js": "/School-project-13-front/static/js/main.2ef3de6a.js",
+    "static/media/bank-tree.jpeg": "/School-project-13-front/static/media/bank-tree.4d59987c7c62b024b014.jpeg",
+    "static/media/icon-security.png": "/School-project-13-front/static/media/icon-security.1c819fa1007a5c53e6a9.png",
+    "static/media/argentBankLogo.png": "/School-project-13-front/static/media/argentBankLogo.e031a16c76ab9bbbf78a.png",
+    "static/media/icon-chat.png": "/School-project-13-front/static/media/icon-chat.e238539d82b5a5f63c33.png",
+    "static/media/icon-money.png": "/School-project-13-front/static/media/icon-money.8ec88bb1a5070fd6513a.png",
+    "index.html": "/School-project-13-front/index.html",
+    "main.86f759cd.css.map": "/School-project-13-front/static/css/main.86f759cd.css.map",
+    "main.2ef3de6a.js.map": "/School-project-13-front/static/js/main.2ef3de6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86f759cd.css",
+    "static/js/main.2ef3de6a.js"
+  ]
+}
